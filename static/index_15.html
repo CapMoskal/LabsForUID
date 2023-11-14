@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+        <title>lab-13</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesForIndex13.css">
+    </head>
+    <body>
+        <script>
+            function care(a, h) 
+            {
+                var s = (a*h)/2
+                document.write("площадь треугольника равна: ", s, ".")
+            }
+        </script>
+        
+        <form name="form1">
+            основание:<input type="text" size="5" name="st1"><hr>высота:<input type="text" size="5" name="st2"><hr>
+            <input type="button" value="Вычислить" onClick="care(document.form1.st1.value, document.form1.st2.value)">
+        </form>
+    </body>
+</html>

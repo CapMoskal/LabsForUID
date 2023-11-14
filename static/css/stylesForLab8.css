@@ -1,0 +1,45 @@
+.blocks {
+    float: relative;
+    clear: none;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+}
+
+.resize-thumb {
+    width: 150px;
+    height: 100px;
+}
+
+.blocks a {
+    display: block;
+    text-decoration: none;
+    cursor: default;
+}
+
+.blocks a:hover {
+    position: relative;
+}
+
+.blocks span img {
+    border: 1px solid #FFFFFF;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.blocks a span {
+    position: absolute;
+    display: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 10px 13px 10px;
+}
+.blocks a:hover span {
+    display: block;
+    top: 50px;
+    left: 90px;
+    width: 80%;
+    opacity: 0.97;
+}

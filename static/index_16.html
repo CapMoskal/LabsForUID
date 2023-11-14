@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+        <title>lab-13</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesForLab16.css">
+    </head>
+    <body>
+        <form class="contact-form" action="" method="POST" name="contact-form">
+            <ul>
+                <li>
+                    <h2>Contact us</h2>
+                    <span class="required-notification">* Denotes Required Field</span>
+                </li>
+                <li>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" placeholder="Jhon Doe" required>
+                </li>
+                <li>
+                    <label for="email">e-mail: </label>
+                    <input type="text" name="email" placeholder="name@something.com" required>
+                    <span class="form-hint">Proper format "name@something.com"</span>
+                </li>
+                <li>
+                    <label for="website">website: </label>
+                    <input type="text" name="website" placeholder="https://someadress.com" required>
+                    <span class="form-hint">Proper format "https://someadress.com"</span>
+                </li>
+                <li>
+                    <label for="message">message: </label>
+                    <textarea name="message" cols="40" rows="6" required></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Submit form</button>
+                </li>
+            </ul>
+        </form>
+
+    </body>
+</html>

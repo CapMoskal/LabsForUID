@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 60px;
+    widtd: 100%;
+    background-color: orangered
+}
+
+ul.list{
+    position: absolute;
+    margin-left: calc((100% - 800px)/2);
+    widtd: 800px;
+    height: 30px;
+    list-style-type: none;
+}
+
+ul.list li{
+    margin-left: 15px;
+    display: inline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a.hover{
+    color: blue;
+    font-size: 15px;
+}

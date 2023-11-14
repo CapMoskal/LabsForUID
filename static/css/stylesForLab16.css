@@ -132,3 +132,12 @@ button.submit:active {
     -o-transition: .25s;
     transition: padding .25s;
 }
+
+.contact-form input, .contact-form textarea {
+    padding-right: 30px;
+}
+
+.contact-form input:focus:invalid, .contact-form textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+}
